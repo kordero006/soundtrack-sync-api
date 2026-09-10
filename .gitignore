@@ -13,12 +13,17 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ IDEA
+.idea/
 *.iml
-*.ipr
+out/
 
+# Maven
+target/
+
+# Entorno local y secretos
+.env
+application-local.properties
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
